@@ -1,0 +1,61 @@
+.imgContainer img {
+  margin: auto;
+}
+
+#user-image {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.p-fileupload-choose {
+  margin-top: 10px;
+  background-color: rgb(79 70 229);
+  border-color: rgb(79 70 229);
+}
+
+.p-fileupload-choose:hover {
+  background-color: rgb(79, 70, 229, 0.9) !important;
+}
+
+.settings .p-component {
+  text-align: left !important;
+}
+
+#btn-modifier {
+  background-color: rgb(79 70 229);
+  border-color: rgb(79, 70, 229);
+}
+
+#btn-modifier:hover {
+  background-color: rgb(79, 70, 229, 0.9);
+  border-color: rgb(79, 70, 229, 0.9);
+}
+
+#btn-enregistrer {
+  background-color: rgb(79 70 229);
+  border-color: rgb(79 70 229);
+}
+
+#btn-enregistrer:hover {
+  background-color: rgb(79, 70, 229, 0.9);
+  border-color: rgb(79, 70, 229, 0.9);
+}
+
+#btn-enregistrer.hide {
+  display: none;
+}
+
+input[type="file"]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: rgb(79, 70, 229, 0.9);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: rgb(79 70 229);
+}

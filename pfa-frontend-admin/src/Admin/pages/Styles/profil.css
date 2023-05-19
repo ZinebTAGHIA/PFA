@@ -1,0 +1,56 @@
+#user-image {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.p-fileupload-choose {
+  margin-top: 10px;
+  background-color: #1775f1;
+}
+
+.p-fileupload-choose:hover {
+  background-color: #0c5fcd !important;
+}
+
+.settings .p-component {
+  text-align: left !important;
+}
+
+#btn-modifier {
+  background-color: #1775f1;
+  border-color: #1775f1;
+}
+
+#btn-modifier:hover {
+  background-color: #0c5fcd;
+  border-color: #0c5fcd;
+}
+
+#btn-enregistrer {
+  background-color: #1775f1;
+  border-color: #1775f1;
+}
+
+#btn-enregistrer:hover {
+  background-color: #0c5fcd;
+  border-color: #0c5fcd;
+}
+
+#btn-enregistrer.hide{
+  display: none;
+}
+
+input[type="file"]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #1775f1;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #0c5fcd;
+}

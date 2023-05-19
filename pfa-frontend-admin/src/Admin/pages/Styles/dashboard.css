@@ -1,0 +1,13 @@
+.p-progressbar-label {
+  display: none !important;
+}
+
+.p-progressbar .p-progressbar-value {
+  background-color: #1775f1 !important;
+}
+
+.p-progressbar {
+  background-color: #f1f0f6 !important;
+  border-radius: 10px !important;
+  height: 15px !important;
+}
