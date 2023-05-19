@@ -23,9 +23,9 @@ class DemandeFactory extends Factory
         $type = "";
 
         if ($objet == "Certificat de scolarité" || $objet == "Attestation de scolarité" || $objet == "Convention de stage") {
-            $type = "examen";
-        } else {
             $type = "scolarité";
+        } else {
+            $type = "examen";
         }
 
         $id_type = Type::where('intitule', $type)->first()->id;
